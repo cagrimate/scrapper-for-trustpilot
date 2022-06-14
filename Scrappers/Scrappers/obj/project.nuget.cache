@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "VHOABBoTl4J2jqFzWYt7VkHTXdR1z119wqH348z9eoIwg9t9Q56BReygJYaDYYUkbWHeJrmmoXSm0CwvD5xAEg==",
+  "success": true,
+  "projectFilePath": "/Users/cagritumer/Projects/Scrappers/Scrappers/Scrappers.csproj",
+  "expectedPackageFiles": [
+    "/Users/cagritumer/.nuget/packages/fizzler/1.3.0/fizzler.1.3.0.nupkg.sha512",
+    "/Users/cagritumer/.nuget/packages/fizzler.systems.htmlagilitypack/1.2.1/fizzler.systems.htmlagilitypack.1.2.1.nupkg.sha512",
+    "/Users/cagritumer/.nuget/packages/htmlagilitypack/1.11.43/htmlagilitypack.1.11.43.nupkg.sha512"
+  ],
+  "logs": []
+}

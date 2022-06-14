@@ -1,0 +1,37 @@
+﻿@model List<dynamic>
+@{
+    ViewData["Title"] = "Youtube Page";
+}
+<div>
+    <h1> hello world</h1>
+</div>
+
+<div class="container">
+    <form method="post">
+        <div>
+            <input type="text" name="url" />
+            <button type="submit">Getir</button>
+        </div>
+    </form>
+</div>
+
+<div class="container">
+    @if (Model != null)
+    {
+        foreach (var item in Model)
+        {
+
+    <ul>
+        <li> @item.name</li>
+        <li>Stars(1to5): @item.starNumber</li>
+        <li>Title: @item.titleEncode</li>
+        <li>Comment: @item.commentEncode</li>
+        <li>Time: @item.time</li>
+    </ul>
+            <hr />
+        }
+
+    }
+
+
+</div>
